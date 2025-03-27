@@ -83,27 +83,27 @@ typedef u_int8_t u8;
 
 //如果你要修改的话 请注意后面的序号，每个插件对应的序号不能相同  不能超过63 你可以删掉不需要的 把序号给你需要的插件
 //#define EVM_RESTART_NFSD			(1ULL << 38) //nfsd文件系统
-#define EVM_RESTART_EASYTIER			(1ULL << 38) // Easyier异地组网
+//#define EVM_RESTART_EASYTIER			(1ULL << 38) // Easyier异地组网【删除1】
 #define EVM_RESTART_DMS				(1ULL << 39) //Minidlna UPnP 媒体服务器
 #define EVM_RESTART_ITUNES			(1ULL << 40)
 //#define EVM_RESTART_TRMD			(1ULL << 41) //#TRANSMISSION
-#define EVM_RESTART_CLOUDFLARE			(1ULL << 41)  //CF的ddns
-#define EVM_RESTART_ARIA			(1ULL << 42) //aria2c文件下载
+//#define EVM_RESTART_CLOUDFLARE		(1ULL << 41)  //CF的ddns【删除2】
+//#define EVM_RESTART_ARIA			(1ULL << 42) //aria2c文件下载【删除3】
 //#define EVM_RESTART_SCUT			(1ULL << 43) //校园网
 #define EVM_RESTART_TTYD			(1ULL << 43) //ttyd网页终端
 //#define EVM_RESTART_VLMCSD			(1ULL << 44) //微软服务
-#define EVM_RESTART_ALIST			(1ULL << 44) //alist文件列表
-#define EVM_RESTART_ALIDDNS			(1ULL << 45) //阿里ddns
-#define EVM_RESTART_SMARTDNS	    		(1ULL << 46) //smartdns加速
-#define EVM_RESTART_FRP	    			(1ULL << 47) //frp内网穿透
+//#define EVM_RESTART_ALIST			(1ULL << 44) //alist文件列表【删除4】
+//#define EVM_RESTART_ALIDDNS			(1ULL << 45) //阿里ddns【删除5】
+//#define EVM_RESTART_SMARTDNS	    		(1ULL << 46) //smartdns加速【删除6】
+//#define EVM_RESTART_FRP	    		(1ULL << 47) //frp内网穿透【删除7】
 //#define EVM_RESTART_DNSFORWARDER		(1ULL << 47) //dns转发
 //#define EVM_RESTART_SHADOWSOCKS		(1ULL << 48) //科学上网ss
-#define EVM_RESTART_CADDY			(1ULL << 48) //caddy文件管理
+//#define EVM_RESTART_CADDY			(1ULL << 48) //caddy文件管理【删除8】
 //#define EVM_RESTART_SS_TUNNEL			(1ULL << 49) //科学上网插件
-#define EVM_RESTART_ADGUARDHOME			(1ULL << 49) //adg去广告
+//#define EVM_RESTART_ADGUARDHOME		(1ULL << 49) //adg去广告【删除9】
 //#define EVM_RESTART_MENTOHUST			(1ULL << 50) //校园认证
 //#define EVM_RESTART_WYY			(1ULL << 50) //网易云
-#define EVM_RESTART_BAFA			(1ULL << 50) //巴法云
+//#define EVM_RESTART_BAFA			(1ULL << 50) //巴法云【删除10】
 //#define EVM_RESTART_ADBYBY			(1ULL << 51) //adb去广告
 #define EVM_RESTART_ZEROTIER			(1ULL << 51) //zeriter异地组网
 //#define EVM_RESTART_DDNSTO	    		(1ULL << 52) //ddnsto内网穿透
