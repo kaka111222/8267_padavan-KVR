@@ -106,20 +106,20 @@ typedef u_int8_t u8;
 //#define EVM_RESTART_BAFA			(1ULL << 50) //巴法云【删除10】
 //#define EVM_RESTART_ADBYBY			(1ULL << 51) //adb去广告
 #define EVM_RESTART_ZEROTIER			(1ULL << 51) //zeriter异地组网
-//#define EVM_RESTART_DDNSTO	    		(1ULL << 52) //ddnsto内网穿透
-#define EVM_RESTART_WIREGUARD			(1ULL << 52) //wg异地组网
-#define EVM_RESTART_ALDRIVER			(1ULL << 53) //阿里云盘挂载
+#define EVM_RESTART_DDNSTO	    		(1ULL << 52) //ddnsto内网穿透【新增1】
+//#define EVM_RESTART_WIREGUARD			(1ULL << 52) //wg异地组网【删除11】
+//#define EVM_RESTART_ALDRIVER			(1ULL << 53) //阿里云盘挂载【删除12】
 //#define EVM_RESTART_VIRTUALHERE		(1ULL << 53) //virtualhere
-#define EVM_RESTART_UUPLUGIN			(1ULL << 54) //UU加速器
+//#define EVM_RESTART_UUPLUGIN			(1ULL << 54) //UU加速器【删除13】
 //#define EVM_RESTART_KOOLPROXY			(1ULL << 55) //kp去广告
-#define EVM_RESTART_LUCKY			(1ULL << 55) //lucky
-#define EVM_RESTART_WXSEND			(1ULL << 56) //微信推送
-#define EVM_RESTART_CLOUDFLARED			(1ULL << 57) //CF隧道免费内网穿透
+//#define EVM_RESTART_LUCKY			(1ULL << 55) //lucky【删除14】
+//#define EVM_RESTART_WXSEND			(1ULL << 56) //微信推送【删除15】
+//#define EVM_RESTART_CLOUDFLARED		(1ULL << 57) //CF隧道免费内网穿透【删除16】
 #define EVM_RESTART_VNTS			(1ULL << 58) //vnt服务器
 #define EVM_RESTART_VNTCLI			(1ULL << 59) //vnt客户端
 //#define EVM_RESTART_NVPPROXY			(1ULL << 60) 
-#define EVM_RESTART_NATPIERCE			(1ULL << 60) //皎月连
-#define EVM_RESTART_TAILSCALE			(1ULL << 61) //taislacle
+//#define EVM_RESTART_NATPIERCE			(1ULL << 60) //皎月连【删除17】
+//#define EVM_RESTART_TAILSCALE			(1ULL << 61) //taislacle【删除18】
 #define EVM_RESTART_REBOOT			(1ULL << 62) //重启
 #define EVM_BLOCK_UNSAFE			(1ULL << 63) /* special case */
 
