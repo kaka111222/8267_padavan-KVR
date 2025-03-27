@@ -1,6 +1,7 @@
 # Padavan-KVR #
 fork于[lmq8267的仓库padavan-KVR](https://github.com/lmq8267/padavan-KVR)
 
+
 不需要WireGuard的可以去`trunk/configs/boards/型号/kernel-3.4.x**.config`文件里找到 **`CONFIG_WIREGUARD=y`** 改成 **`# CONFIG_WIREGUARD is not set`** 去掉wg内核模块 约900多k
 
 fork于fightroad的仓库 https://github.com/fightroad/Padavan-KVR.git 
