@@ -287,8 +287,8 @@ jobs:
         ##包含 "openssl" 可执行程序，用于生成证书。约 0.4MB
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=y" >> .config
 
-        ##包含 xUPNPd IPTV 媒体服务器。约 0.3MB
-        echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=y" >> .config
+        ##包含 xUPNPd IPTV 媒体服务器。约 0.3MB 【删除1】
+        echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=n" >> .config
 
         ##包含 Minidlna UPnP 媒体服务器。约 1.6MB
         echo "CONFIG_FIRMWARE_INCLUDE_MINIDLNA=n" >> .config
@@ -321,8 +321,8 @@ jobs:
         ##校园网 已删除 /trunk/user/httpd/common.h
         echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=n" >> .config
         
-        ## OpenVPN。需要 IPv6 支持。openssl 约 1.2MB，openvpn 约 0.4MB
-        echo "CONFIG_FIRMWARE_INCLUDE_OPENVPN=y" >> .config
+        ## OpenVPN。需要 IPv6 支持。openssl 约 1.2MB，openvpn 约 0.4MB 【删除2】
+        echo "CONFIG_FIRMWARE_INCLUDE_OPENVPN=n" >> .config
 
         ## 广东工业校园认证
         echo "CONFIG_FIRMWARE_INCLUDE_GDUT_DRCOM=n" >> .config
