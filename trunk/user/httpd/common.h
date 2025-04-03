@@ -97,7 +97,7 @@ typedef u_int8_t u8;
 //#define EVM_RESTART_SMARTDNS	    		(1ULL << 46) //smartdns加速【删除6】
 //#define EVM_RESTART_FRP	    		(1ULL << 47) //frp内网穿透【删除7】
 //#define EVM_RESTART_DNSFORWARDER		(1ULL << 47) //dns转发
-//#define EVM_RESTART_SHADOWSOCKS		(1ULL << 48) //科学上网ss
+#define EVM_RESTART_SHADOWSOCKS		(1ULL << 48) //科学上网ss【新增】
 //#define EVM_RESTART_CADDY			(1ULL << 48) //caddy文件管理【删除8】
 //#define EVM_RESTART_SS_TUNNEL			(1ULL << 49) //科学上网插件
 //#define EVM_RESTART_ADGUARDHOME		(1ULL << 49) //adg去广告【删除9】
@@ -122,6 +122,12 @@ typedef u_int8_t u8;
 //#define EVM_RESTART_TAILSCALE			(1ULL << 61) //taislacle【删除18】
 #define EVM_RESTART_REBOOT			(1ULL << 62) //重启
 #define EVM_BLOCK_UNSAFE			(1ULL << 63) /* special case */
+#define EVM_RESTART_v2ray			(1ULL << 44) //v2ray
+#define EVM_RESTART_xray			(1ULL << 45) //xray
+#define EVM_RESTART_ssobfs			(1ULL << 46) //ssobfs
+#define EVM_RESTART_TROJAN			(1ULL << 47) //TROJAN
+
+
 
 
 #define EVT_RESTART_FIREWALL		1
