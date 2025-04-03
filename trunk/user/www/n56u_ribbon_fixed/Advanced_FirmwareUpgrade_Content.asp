@@ -60,6 +60,7 @@ function submitInternet(v){
 	document.bigtmp_action.connect_action.value = v;
 	document.bigtmp_action.submit();
 }
+
 </script>
 <style>
 .file {
@@ -176,14 +177,14 @@ function submitInternet(v){
                                     <div class="alert alert-info" style="margin: 10px;">
                                         <#FW_desc1#>
                                         <ol>
-                                            <li>下载当前固件作者发布的最新版本的固件，不同作者的固件请在 breed 里升级刷机！</li>
+                                            <li><#FW_desc2#></li>
+                                            <li><#FW_desc3#></li>
                                             <li><#FW_desc4#></li>
                                             <li><#FW_desc5#></li>
                                             <li><#FW_desc6#></li>
-											<li>固件失败日志提示:Firmware update: Firmware image is corrupted! Please check free space in /tmp!
-											请点击右边按钮，临时增加tmp空间，再上传固件即可！<input id="bingtmp" class="btn btn-success" style="width:50px display:none;" type="button" name="bingtmp" value="扩大/tmp" onclick="submitInternet('bigtmp');" /></li>
+											<li><#FW_desc7#><input id="bingtmp" class="btn btn-success" style="width:50px display:none;" type="button" name="bingtmp" value="<#expand_tmp#>" onclick="submitInternet('bigtmp');" /></li>
                                         </ol>
-										</div>
+                                    </div>
 
                                     <table width="100%" cellpadding="4" cellspacing="0" class="table">
                                         <tr>
@@ -211,9 +212,7 @@ function submitInternet(v){
                                         <strong><#FW_note#></strong>
                                         <ol>
                                             <li><#FW_n1#></li>
-                                            <li>在 breed 里刷机也不会清空原有的配置，升级不同作者的固件，请进行双清！</li>
-                                            <li>当前页面仅针对同一个作者的固件进行升级，请勿上传其他固件，以免造成砖机！</li>
-                                            <li>更换不同作者的固件强烈建议在 breed 里进行刷机！</li>
+                                            <li><#FW_n2#></li>
                                         </ol>
                                     </div>
 
