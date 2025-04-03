@@ -211,7 +211,7 @@ typedef u_int8_t u8;
 #define EVT_RESTART_BAFA	    	2
 #define EVT_RESTART_VIRTUALHERE    	2
 #define EVT_RESTART_REBOOT			40
-
+#define EVM_RESTART_TROJAN		2
 struct variable
 {
 	const char *name;
