@@ -122,10 +122,10 @@ typedef u_int8_t u8;
 //#define EVM_RESTART_TAILSCALE			(1ULL << 61) //taislacle【删除18】
 #define EVM_RESTART_REBOOT			(1ULL << 62) //重启
 #define EVM_BLOCK_UNSAFE			(1ULL << 63) /* special case */
-#define EVM_RESTART_v2ray			(1ULL << 44) //v2ray
-#define EVM_RESTART_xray			(1ULL << 45) //xray
-#define EVM_RESTART_ssobfs			(1ULL << 46) //ssobfs
-#define EVM_RESTART_TROJAN			(1ULL << 47) //TROJAN
+//#define EVM_RESTART_v2ray			(1ULL << 44) //v2ray
+//#define EVM_RESTART_xray			(1ULL << 45) //xray
+//#define EVM_RESTART_ssobfs			(1ULL << 46) //ssobfs
+//#define EVM_RESTART_TROJAN			(1ULL << 47) //TROJAN
 
 
 
@@ -211,7 +211,7 @@ typedef u_int8_t u8;
 #define EVT_RESTART_BAFA	    	2
 #define EVT_RESTART_VIRTUALHERE    	2
 #define EVT_RESTART_REBOOT			40
-#define EVM_RESTART_TROJAN		2
+//#define EVM_RESTART_TROJAN		2
 struct variable
 {
 	const char *name;
